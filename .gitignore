@@ -1,0 +1,32 @@
+# virtualenv
+env/
+env2/
+env3*/
+.Python
+/env
+
+# python
+*.pyc
+__pycache__/
+
+# C extensions
+*.so
+
+# distribution
+dist/
+*.egg-info/
+build
+.eggs
+
+# testing
+.cache
+.pytest_cache
+
+# editor
+.vscode
+
+# docs
+docs/_build
+
+**/profiles
+**/.DS_store

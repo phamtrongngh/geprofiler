@@ -1,0 +1,11 @@
+request:
+  format: 'curl'
+  list:
+    # - "curl --location --request GET 'localhost:8000/cs/api/user/info/?user_id=c0f8f66d-bd4e-4305-a536-6de3b2da926c' \
+    #   --header 'Authorization: Token 92c7c270bd43e79a6546d8b80de1c1ce4e593724' \
+    #   --header 'Cookie: csrftoken=tmbcb5KPaZFBU4PavGa4Z5hTrrbcL1eSlgrxGVqXsHV8njXVuIRZdxJK1NVmLvgP'"
+    # - "curl --location --request GET 'localhost:8000/cs/api/product/product_list/' \
+    #   --header 'Authorization: Token 92c7c270bd43e79a6546d8b80de1c1ce4e593724' \
+    #   --header 'Cookie: csrftoken=tmbcb5KPaZFBU4PavGa4Z5hTrrbcL1eSlgrxGVqXsHV8njXVuIRZdxJK1NVmLvgP'"
+    - "curl --location --request GET 'localhost:9999' --header 'Cookie: csrftoken=tmbcb5KPaZFBU4PavGa4Z5hTrrbcL1eSlgrxGVqXsHV8njXVuIRZdxJK1NVmLvgP'"
+output_dir: 'profiles'
