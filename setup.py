@@ -8,7 +8,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md")) as f:
 setup(
     name="geprofiler",
     packages=find_packages(include=["geprofiler", "geprofiler.*"]),
-    version="1.0.2",
+    version="1.0.8",
     ext_modules=[
         Extension(
             "geprofiler.low_level.stat_profile",
@@ -22,7 +22,7 @@ setup(
     author_email="benalpha1105@gmail.com",
     url="https://github.com/phamtrongngh/geprofiler",
     keywords=["profiling", "profile", "profiler", "cpu", "time", "sampling"],
-    install_requires=[],
+    install_requires=["pyyaml"],
     extras_require={"jupyter": ["ipython"]},
     include_package_data=True,
     python_requires=">=3.7",
