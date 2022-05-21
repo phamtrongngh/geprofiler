@@ -15,7 +15,7 @@ setup(
             sources=["geprofiler/low_level/stat_profile.c"],
         )
     ],
-    description="Python call stack profiler based on Pyinstrument but focused on HTTP Server",
+    description="Geprofiler is a Python HTTP Server profiler that makes it easy to find slow code.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Ben Pham",

@@ -1,4 +1,4 @@
-![cover image](./docs/images/cover.png)
+![cover image](https://raw.githubusercontent.com/phamtrongngh/geprofiler/master/docs/images/cover.png)
 
 [Geprofiler](https://github.com/phamtrongngh/geprofiler) is a Python call stack profiler built on top of [Pyinstrument](https://github.com/joerick/pyinstrument) but stripped of the unnecessary and focused on supporting features for HTTP Server.
 
@@ -20,7 +20,7 @@ To profile [Django](https://www.djangoproject.com/) web requests:
 
 -   Add `geprofiler.middleware.ProfilerMiddleware` to `MIDDLEWARE` in your `settings.py`.
 -   Once the server has been started, add `?geprofiler` (as a query param) to the end of a request URL you want to profile (also `geprofiler` can also be added as a request header). As soon as the request is processed, a new browser tab will be opened to display the profile information.
-    ![web profile](./docs/images/web-profile.gif)
+    ![web profile](https://raw.githubusercontent.com/phamtrongngh/geprofiler/master/docs/images/web-profile.gif)
 -   Add `GEPROFILER_PROFILE_DIR = 'profiles'` to your `settings.py` if you want the result page to be saved to the folder `profiles` in your working directory.
 
 ---
@@ -29,7 +29,7 @@ To profile [Django](https://www.djangoproject.com/) web requests:
 
 Sometimes, you need a different solution to solve advanced problems. For example, you might want Geprofiler to automatically profile all the APIs you specified immediately, instead of spending too much time profiling each API manually. In this case, you can define a file `geprofiler.yaml` in your working directory with a structure similar to the one below.
 
-![yaml](./docs/images/yaml.png)
+![yaml](https://raw.githubusercontent.com/phamtrongngh/geprofiler/master/docs/images/yaml.png)
 
 
 > -   `request`:
@@ -44,4 +44,4 @@ Finally, to start profiling, run:
 $ geprofiler
 ```
 Result:
-![geprofiler-yaml-result](./docs/images/geprofiler-yaml-result.png)
+![geprofiler-yaml-result](https://raw.githubusercontent.com/phamtrongngh/geprofiler/master/docs/images/geprofiler-yaml-result.png)
