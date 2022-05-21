@@ -8,7 +8,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md")) as f:
 setup(
     name="geprofiler",
     packages=find_packages(include=["geprofiler", "geprofiler.*"]),
-    version="1.0.0",
+    version="1.0.2",
     ext_modules=[
         Extension(
             "geprofiler.low_level.stat_profile",
