@@ -19,7 +19,7 @@ The examples below use [Django](https://www.djangoproject.com/) to create a simp
 To profile [Django](https://www.djangoproject.com/) web requests:
 
 -   Add `geprofiler.middleware.ProfilerMiddleware` to `MIDDLEWARE` in your `settings.py`.
--   When the server has been started, add `?geprofiler` (as a query param) to the end of a request URL you want to profile. As soon as the request is processed, a new browser tab will be opened to display the profile information.
+-   Once the server has been started, add `?geprofiler` (as a query param) to the end of a request URL you want to profile (also `geprofiler` can also be added as a header). As soon as the request is processed, a new browser tab will be opened to display the profile information.
     ![web profile](./docs/images/web-profile.gif)
 -   Add `GEPROFILER_PROFILE_DIR = 'profiles'` to your `settings.py` if you want the result page to be saved to the folder `profiles` in your working directory.
 
